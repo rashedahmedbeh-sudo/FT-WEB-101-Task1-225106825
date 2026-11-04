@@ -1,7 +1,11 @@
-// Find the theme button in the page.
-const themeButton = document.getElementById("theme-toggle");
+document.addEventListener("DOMContentLoaded", function () {
 
-// Listen for a click and toggle the "dark" class on the body.
-themeButton.addEventListener("click", function () {
-  document.body.classList.toggle("dark");
+    const themeButton = document.getElementById("theme-toggle");
+
+    if (themeButton) {
+        themeButton.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+        });
+    }
+
 });
