@@ -1,0 +1,88 @@
+<!--
+  Student Name: AHMED RASHED
+  Student ID: 225106825
+  Note: Built with learning assistance; make sure you understand and can explain every line.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile | AHMED RASHED</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#top">AHMED RASHED</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>AHMED RASHED</h1>
+        <p class="intro">A Computer Science student who enjoys learning, building projects, and exploring technology.</p>
+        <a class="primary-link" href="#contact">Get in touch</a>
+      </div>
+      <img class="profile-photo" src="images/me.jpg" alt="A placeholder profile portrait. Replace this with your own photo.">
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>My interests</h2>
+      </div>
+      <div class="card-row">
+        <article class="card">
+          <span class="card-number">01</span>
+          <h3>Programming</h3>
+          <p>I enjoy learning programming concepts and turning ideas into useful applications.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">02</span>
+          <h3>Cybersecurity</h3>
+          <p>I am interested in networks, digital security, and understanding how systems stay safe.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">03</span>
+          <h3>Learning</h3>
+          <p>I like exploring new technologies, improving my skills, and working on challenges.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Leave your details</h2>
+        <p class="section-description">Fill in the form below to say hello.</p>
+      </div>
+      <form class="contact-form" action="#" method="get">
+        <div class="form-group">
+          <label for="name">Your Name </label>
+          <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+        <button class="submit-button" type="submit">Send details</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 AHMED RASHED. All rights reserved.</p>
+  </footer>
+
+  <button class="theme-button" id="theme-toggle" type="button" aria-label="Toggle dark mode">☾ <span>Toggle theme</span></button>
+  <script src="js/script.js"></script>
+</body>
+</html>
